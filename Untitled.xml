@@ -1,0 +1,466 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<XMI xmi.version = "1.1" xmlns:UML="href://org.omg/UML/1.3" timestamp = "Sat Sep 16 17:41:27 2017">
+<XMI.header>
+  <XMI.documentation>
+    <XMI.owner></XMI.owner>
+    <XMI.contact></XMI.contact>
+    <XMI.exporter>StarUML.XMI-Addin</XMI.exporter>
+    <XMI.exporterVersion>1.0</XMI.exporterVersion>
+    <XMI.notice></XMI.notice>
+  </XMI.documentation>
+  <XMI.metamodel xmi.name = "UML" xmi.version = "1.3"/>
+ </XMI.header>
+<XMI.content>
+<UML:Model xmi.id="UMLProject.1" xmi.uuid="DCE:8B297577-B460-490B-80B8-7FF3F4076CFF">
+  <UML:Namespace.ownedElement>
+    <UML:Model xmi.id="UMLModel.2" xmi.uuid="DCE:0AD08BEB-9451-42CB-B402-B2A07D967AE7" name="Use Case Model" visibility="public" isSpecification="false" namespace="UMLProject.1" isRoot="false" isLeaf="false" isAbstract="false">
+      <UML:Namespace.ownedElement>
+        <UML:Stereotype xmi.id="X.178" xmi.uuid="DCE:B1B47BFB-931B-4C7E-8DB0-CF449A470970" name="useCaseModel" extendedElement="UMLModel.2"/>
+      </UML:Namespace.ownedElement>
+    </UML:Model>
+    <UML:Model xmi.id="UMLModel.3" xmi.uuid="DCE:628BEECB-EF3E-4B34-8B5A-2DBB0973833A" name="Analysis Model" visibility="public" isSpecification="false" namespace="UMLProject.1" isRoot="false" isLeaf="false" isAbstract="false">
+      <UML:Namespace.ownedElement>
+        <UML:Stereotype xmi.id="X.179" xmi.uuid="DCE:3777CAB0-9327-4D52-8534-389F847FA8DB" name="analysisModel" extendedElement="UMLModel.3"/>
+      </UML:Namespace.ownedElement>
+    </UML:Model>
+    <UML:Model xmi.id="UMLModel.4" xmi.uuid="DCE:6C7B98C2-BB46-48D4-8CE9-AF9BAF5BFEAE" name="Design Model" visibility="public" isSpecification="false" namespace="UMLProject.1" isRoot="false" isLeaf="false" isAbstract="false">
+      <UML:Namespace.ownedElement>
+        <UML:Stereotype xmi.id="X.180" xmi.uuid="DCE:E1086CBC-B8C9-45F3-B5EB-106D976A8B59" name="designModel" extendedElement="UMLModel.4"/>
+      </UML:Namespace.ownedElement>
+    </UML:Model>
+    <UML:Model xmi.id="UMLModel.5" xmi.uuid="DCE:AE727ECD-A7BC-497C-8A0B-312E46F42581" name="Implementation Model" visibility="public" isSpecification="false" namespace="UMLProject.1" isRoot="false" isLeaf="false" isAbstract="false">
+      <UML:Namespace.ownedElement>
+        <UML:Stereotype xmi.id="X.181" xmi.uuid="DCE:8866C05A-B238-4826-9269-F5A11C066B50" name="implementationModel" extendedElement="UMLModel.5"/>
+      </UML:Namespace.ownedElement>
+    </UML:Model>
+    <UML:Model xmi.id="UMLModel.6" xmi.uuid="DCE:9C353320-8ADE-4745-BE45-B09FEF7B485D" name="Deployment Model" visibility="public" isSpecification="false" namespace="UMLProject.1" isRoot="false" isLeaf="false" isAbstract="false">
+      <UML:Namespace.ownedElement>
+        <UML:Class xmi.id="UMLClass.7" xmi.uuid="DCE:DE53961B-309F-4A5E-B5E8-1BBD5243AEA7" name="Applicant" visibility="public" isSpecification="false" namespace="UMLModel.6" isRoot="false" isLeaf="false" isAbstract="false" participant="UMLAssociationEnd.24 UMLAssociationEnd.27" isActive="false">
+          <UML:Classifier.feature>
+            <UML:Attribute xmi.id="UMLAttribute.8" xmi.uuid="DCE:1737531A-C298-4603-85CA-63EA38536521" name="loginUsername" visibility="private" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="" owner="UMLClass.7"/>
+            <UML:Attribute xmi.id="UMLAttribute.9" xmi.uuid="DCE:9FE473C9-6126-4B48-8300-63884B95F9DF" name="password" visibility="private" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="" owner="UMLClass.7"/>
+            <UML:Operation xmi.id="UMLOperation.10" xmi.uuid="DCE:3F93BE45-27AA-4BA4-8B65-21862D47CFE2" name="getusername" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.7"/>
+            <UML:Operation xmi.id="UMLOperation.11" xmi.uuid="DCE:11A8798D-A6C4-4496-8594-408AA9646EC6" name="setusername" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.7">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="UMLParameter.12" xmi.uuid="DCE:5F3568BD-1421-4499-9267-B62E8EFB6376" name="" visibility="public" isSpecification="false" kind="return" behavioralFeature="UMLOperation.11" type="X.183"/>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="UMLOperation.13" xmi.uuid="DCE:D91BDE04-362D-41D0-AABB-583250E76E4F" name="setpasswod" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.7">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="UMLParameter.14" xmi.uuid="DCE:CE39B43D-EAB3-4B6C-B2FA-127807038DB8" name="" visibility="public" isSpecification="false" kind="return" behavioralFeature="UMLOperation.13" type="X.183"/>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+          </UML:Classifier.feature>
+        </UML:Class>
+        <UML:Class xmi.id="UMLClass.15" xmi.uuid="DCE:8EEC0563-8CFD-4D78-91C2-DA5C19F60211" name="Programme" visibility="public" isSpecification="false" namespace="UMLModel.6" isRoot="false" isLeaf="false" isAbstract="false" participant="UMLAssociationEnd.25 UMLAssociationEnd.28 UMLAssociationEnd.46" isActive="false">
+          <UML:Classifier.feature>
+            <UML:Attribute xmi.id="UMLAttribute.16" xmi.uuid="DCE:E7540C38-D178-4B7B-B795-C24911B0B5CA" name="Course choices" visibility="private" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="" owner="UMLClass.15"/>
+            <UML:Attribute xmi.id="UMLAttribute.17" xmi.uuid="DCE:2F71726B-6EA4-4F58-A1E3-FFAA4717AB99" name="Intake" visibility="private" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="" owner="UMLClass.15"/>
+            <UML:Attribute xmi.id="UMLAttribute.18" xmi.uuid="DCE:46A9C8E7-103E-4FB3-84C5-C98E05C7F2DE" name="Course fees" visibility="private" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="" owner="UMLClass.15"/>
+            <UML:Operation xmi.id="UMLOperation.19" xmi.uuid="DCE:40EFBAAC-2297-4A7C-971C-EDC83B1A0CAF" name="getcourse choice" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.15"/>
+            <UML:Operation xmi.id="UMLOperation.20" xmi.uuid="DCE:9D6726ED-4187-459C-A4BE-DC49A6A2C445" name="setcourse choice" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.15">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="UMLParameter.21" xmi.uuid="DCE:B2B49E73-A9D3-434A-8F54-7C7A6D9279C6" name="" visibility="public" isSpecification="false" kind="return" behavioralFeature="UMLOperation.20" type="X.183"/>
+                <UML:Parameter xmi.id="UMLParameter.22" xmi.uuid="DCE:1AFE9CAA-0B0D-41FF-B196-75CDFEEA53D4" name="choice" visibility="public" isSpecification="false" kind="in" behavioralFeature="UMLOperation.20" type=""/>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+          </UML:Classifier.feature>
+        </UML:Class>
+        <UML:Association xmi.id="UMLAssociation.23" xmi.uuid="DCE:E1813868-927C-45E1-9DA2-ED3867472320" name="" visibility="public" isSpecification="false" namespace="UMLModel.6">
+          <UML:Association.connection>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.24" xmi.uuid="DCE:1832511C-007A-4301-8910-4444BFED0459" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="none" targetScope="instance" changeability="changeable" association="UMLAssociation.23" type="UMLClass.7"/>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.25" xmi.uuid="DCE:690858FF-640D-435B-9E17-0F3AFD2C3F18" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="none" targetScope="instance" changeability="changeable" association="UMLAssociation.23" type="UMLClass.15"/>
+          </UML:Association.connection>
+        </UML:Association>
+        <UML:Association xmi.id="UMLAssociation.26" xmi.uuid="DCE:3EE60A37-181A-4403-BE2E-50C6E8309E9B" name="" visibility="public" isSpecification="false" namespace="UMLModel.6">
+          <UML:Association.connection>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.27" xmi.uuid="DCE:464F2AE2-DD75-4266-A05F-B3DE9F3DDB3F" name="" visibility="public" isSpecification="false" isNavigable="false" ordering="unordered" aggregation="none" targetScope="instance" changeability="changeable" association="UMLAssociation.26" type="UMLClass.7"/>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.28" xmi.uuid="DCE:9B8450EB-24E9-4A0B-888A-3A92BB406F8A" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="none" targetScope="instance" changeability="changeable" association="UMLAssociation.26" type="UMLClass.15"/>
+          </UML:Association.connection>
+        </UML:Association>
+        <UML:Class xmi.id="UMLClass.29" xmi.uuid="DCE:CC6FA5EF-DBEE-4A33-AA65-DB649D481B80" name="Lim, Heejin" visibility="public" isSpecification="false" namespace="UMLModel.6" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
+        <UML:Class xmi.id="UMLClass.30" xmi.uuid="DCE:265D0ED6-0BD1-4A51-A075-7CD9B123EAB7" name="University Administrator" visibility="public" isSpecification="false" namespace="UMLModel.6" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+          <UML:Classifier.feature>
+            <UML:Attribute xmi.id="UMLAttribute.31" xmi.uuid="DCE:F896BF64-68B3-4D0D-86BC-DF3229896DBB" name="Register student" visibility="private" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="" owner="UMLClass.30"/>
+            <UML:Attribute xmi.id="UMLAttribute.32" xmi.uuid="DCE:75CAD4DB-89DE-4A14-9A6E-59842C74AC76" name="Update registration status" visibility="private" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="" owner="UMLClass.30"/>
+            <UML:Attribute xmi.id="UMLAttribute.33" xmi.uuid="DCE:F8C484C6-3C1E-4778-B09D-5CB095BD5AC8" name="Update student details" visibility="private" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="" owner="UMLClass.30"/>
+            <UML:Attribute xmi.id="UMLAttribute.34" xmi.uuid="DCE:09C44E5E-5EE9-4CBD-B7F1-352C0D214325" name="receivepayment" visibility="private" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="" owner="UMLClass.30"/>
+            <UML:Operation xmi.id="UMLOperation.35" xmi.uuid="DCE:71F3BA7D-9D41-4389-BAE6-9555C2F0ED64" name="resgistration" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.30"/>
+            <UML:Operation xmi.id="UMLOperation.36" xmi.uuid="DCE:EF2C9C91-7F91-47F6-889D-3F5A6ED9FBAB" name="scheduleinterview" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.30"/>
+            <UML:Operation xmi.id="UMLOperation.37" xmi.uuid="DCE:3E3B240A-C42E-4D17-B6FB-7C0FDEBB4762" name="acknowledgeregister" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.30"/>
+          </UML:Classifier.feature>
+        </UML:Class>
+        <UML:Class xmi.id="UMLClass.38" xmi.uuid="DCE:92F034CF-49EC-4C3A-B1FA-C3CC2BE9BB5F" name="Login accounts" visibility="public" isSpecification="false" namespace="UMLModel.6" isRoot="false" isLeaf="false" isAbstract="false" participant="UMLAssociationEnd.47 UMLAssociationEnd.66" isActive="false">
+          <UML:Classifier.feature>
+            <UML:Attribute xmi.id="UMLAttribute.39" xmi.uuid="DCE:52931BE1-78D8-4F04-8EB3-0C419FE26F76" name="studentlogin" visibility="private" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="" owner="UMLClass.38"/>
+            <UML:Attribute xmi.id="UMLAttribute.40" xmi.uuid="DCE:A467186F-F999-4DD3-86F8-A3CE2BC10929" name="maclogin" visibility="private" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="" owner="UMLClass.38"/>
+            <UML:Attribute xmi.id="UMLAttribute.41" xmi.uuid="DCE:46DC4BA4-2C44-4B92-B79B-AD82601F9C27" name="Enrol" visibility="private" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="" owner="UMLClass.38"/>
+            <UML:Attribute xmi.id="UMLAttribute.42" xmi.uuid="DCE:1771ED20-4CC6-4FF6-8333-61D0736A1613" name="Adminlogin" visibility="private" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="" owner="UMLClass.38"/>
+            <UML:Operation xmi.id="UMLOperation.43" xmi.uuid="DCE:F8B5F34B-F5C2-409C-9156-797015F69236" name="generatepassword" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.38"/>
+            <UML:Operation xmi.id="UMLOperation.44" xmi.uuid="DCE:54A6B249-0D4F-4B74-B63D-369EA1AA21CD" name="validateaccount" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.38"/>
+          </UML:Classifier.feature>
+        </UML:Class>
+        <UML:Association xmi.id="UMLAssociation.45" xmi.uuid="DCE:59C9FF9C-DDE1-4C1E-89A9-78A60A52A81C" name="" visibility="public" isSpecification="false" namespace="UMLModel.6">
+          <UML:Association.connection>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.46" xmi.uuid="DCE:CD471607-D270-4139-BB70-5214A83F3857" name="" visibility="public" isSpecification="false" isNavigable="false" ordering="unordered" aggregation="none" targetScope="instance" changeability="changeable" association="UMLAssociation.45" type="UMLClass.15"/>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.47" xmi.uuid="DCE:27D970FD-A43B-4A0F-A618-AC0FF4F7BDD6" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="none" targetScope="instance" changeability="changeable" association="UMLAssociation.45" type="UMLClass.38"/>
+          </UML:Association.connection>
+        </UML:Association>
+        <UML:Class xmi.id="UMLClass.48" xmi.uuid="DCE:F30051D9-757B-4206-AC17-590C23E0F7AC" name="Enrollment" visibility="public" isSpecification="false" namespace="UMLModel.6" isRoot="false" isLeaf="false" isAbstract="false" participant="UMLAssociationEnd.67" isActive="false">
+          <UML:Classifier.feature>
+            <UML:Attribute xmi.id="UMLAttribute.49" xmi.uuid="DCE:EE7CF651-8DB6-48A7-A049-939D290FE6C6" name="Name" visibility="private" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="" owner="UMLClass.48"/>
+            <UML:Attribute xmi.id="UMLAttribute.50" xmi.uuid="DCE:7583C890-EA12-4EC4-BAB8-A3FC0708092A" name="studentId" visibility="private" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="" owner="UMLClass.48"/>
+            <UML:Attribute xmi.id="UMLAttribute.51" xmi.uuid="DCE:BF08C442-6F42-4204-820E-D63CC3BE269F" name="Course" visibility="private" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="" owner="UMLClass.48"/>
+            <UML:Attribute xmi.id="UMLAttribute.52" xmi.uuid="DCE:AF60C818-2962-4D66-BB7C-A9FEA6E0DA5B" name="couirseId" visibility="private" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="" owner="UMLClass.48"/>
+            <UML:Attribute xmi.id="UMLAttribute.53" xmi.uuid="DCE:4E2BB12D-2699-43FE-A62D-A3ADB9B8EAA9" name="Fees" visibility="private" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="" owner="UMLClass.48"/>
+            <UML:Operation xmi.id="UMLOperation.54" xmi.uuid="DCE:6C731291-A8D6-44A8-9061-E96673ACEE12" name="Calculatefees" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.48"/>
+            <UML:Operation xmi.id="UMLOperation.55" xmi.uuid="DCE:BAA391EC-3A4C-4BC5-8EF9-4448E703225C" name="genearteId" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.48"/>
+          </UML:Classifier.feature>
+        </UML:Class>
+        <UML:Class xmi.id="UMLClass.56" xmi.uuid="DCE:62D06693-3C5F-4AA9-9130-FE39D642B657" name="InformationUpdate" visibility="public" isSpecification="false" namespace="UMLModel.6" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+          <UML:Classifier.feature>
+            <UML:Attribute xmi.id="UMLAttribute.57" xmi.uuid="DCE:BEB9F6D6-B4E8-44EF-8DC3-9CF7F95F1FC1" name="Add program" visibility="private" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="" owner="UMLClass.56"/>
+            <UML:Attribute xmi.id="UMLAttribute.58" xmi.uuid="DCE:7F9FA8C2-7D18-429D-80E4-5A3EC51DDD24" name="remove program" visibility="private" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="" owner="UMLClass.56"/>
+            <UML:Attribute xmi.id="UMLAttribute.59" xmi.uuid="DCE:7F2EAB28-06E8-4B51-B37B-E0C6951AD902" name="applicantstatus" visibility="private" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="" owner="UMLClass.56"/>
+            <UML:Attribute xmi.id="UMLAttribute.60" xmi.uuid="DCE:F481FD5A-1D65-46B4-B42C-08205E11F0A0" name="scheduledinterview" visibility="private" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="" owner="UMLClass.56"/>
+            <UML:Attribute xmi.id="UMLAttribute.61" xmi.uuid="DCE:A69D07C8-5D5E-4CE9-98F5-63127ECAF3FD" name="Balancedue" visibility="private" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="" owner="UMLClass.56"/>
+            <UML:Operation xmi.id="UMLOperation.62" xmi.uuid="DCE:375B3AC2-DCBA-4735-A12D-D86D488BFFAD" name="validateapplicantdetails" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.56"/>
+            <UML:Operation xmi.id="UMLOperation.63" xmi.uuid="DCE:CCEC066F-1FF3-4629-96A2-569170AD5E0C" name="checkpayentdetails" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.56"/>
+            <UML:Operation xmi.id="UMLOperation.64" xmi.uuid="DCE:53591864-251B-4311-A7F1-0756D02B3FE0" name="addremoveprogram" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.56"/>
+          </UML:Classifier.feature>
+        </UML:Class>
+        <UML:Association xmi.id="UMLAssociation.65" xmi.uuid="DCE:F93BC12D-5CA6-4655-AB4C-00B215B60876" name="" visibility="public" isSpecification="false" namespace="UMLModel.6">
+          <UML:Association.connection>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.66" xmi.uuid="DCE:633EFB86-24C0-415C-A6B0-0649BB40767F" name="" visibility="public" isSpecification="false" isNavigable="false" ordering="unordered" aggregation="none" targetScope="instance" changeability="changeable" association="UMLAssociation.65" type="UMLClass.38"/>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.67" xmi.uuid="DCE:C9D8D135-7430-4BAA-9DBE-4B2D9D0B95AD" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="none" targetScope="instance" changeability="changeable" association="UMLAssociation.65" type="UMLClass.48"/>
+          </UML:Association.connection>
+        </UML:Association>
+        <UML:Class xmi.id="UMLClass.68" xmi.uuid="DCE:F4CBF8E4-BDF9-417A-8F62-1BC92B26FB6B" name="Kim, Keehyun" visibility="public" isSpecification="false" namespace="UMLModel.6" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
+        <UML:Class xmi.id="UMLClass.69" xmi.uuid="DCE:E7D83B2F-DE34-417C-A207-044D368C215B" name="Application" visibility="public" isSpecification="false" namespace="UMLModel.6" isRoot="false" isLeaf="false" isAbstract="false" participant="UMLAssociationEnd.158 UMLAssociationEnd.162 UMLAssociationEnd.171 UMLAssociationEnd.173" isActive="false">
+          <UML:Classifier.feature>
+            <UML:Attribute xmi.id="UMLAttribute.70" xmi.uuid="DCE:4D3D2801-7DEA-449B-B5F2-216BC0419910" name="applicationId" visibility="public" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="X.212" owner="UMLClass.69"/>
+            <UML:Attribute xmi.id="UMLAttribute.71" xmi.uuid="DCE:01083947-DE47-487A-9CAF-6FAB45226B29" name="fullName" visibility="private" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="X.210" owner="UMLClass.69"/>
+            <UML:Attribute xmi.id="UMLAttribute.72" xmi.uuid="DCE:CCA8087F-32C2-4625-8245-95E1F3CDCFDC" name="dateOfBirth" visibility="private" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="X.209" owner="UMLClass.69"/>
+            <UML:Attribute xmi.id="UMLAttribute.73" xmi.uuid="DCE:FFF4ABDC-D45C-4EBB-8549-BB0819B96AB1" name="highestQualification" visibility="private" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="X.210" owner="UMLClass.69"/>
+            <UML:Attribute xmi.id="UMLAttribute.74" xmi.uuid="DCE:2ABFE3DA-28F6-474C-9A1F-44996740E41D" name="marksObtained" visibility="private" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="X.212" owner="UMLClass.69"/>
+            <UML:Attribute xmi.id="UMLAttribute.75" xmi.uuid="DCE:45BD9676-72A2-4087-85DA-0522CEAE1EA9" name="email" visibility="private" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="X.210" owner="UMLClass.69"/>
+            <UML:Attribute xmi.id="UMLAttribute.76" xmi.uuid="DCE:4617D98B-95B0-41A7-A2CC-C6A0C6825288" name="goals" visibility="private" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="X.210" owner="UMLClass.69"/>
+            <UML:Attribute xmi.id="UMLAttribute.77" xmi.uuid="DCE:F41E883F-B371-4086-96BC-C75B378ED957" name="scheduledProgram" visibility="private" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="X.220" owner="UMLClass.69"/>
+            <UML:Attribute xmi.id="UMLAttribute.78" xmi.uuid="DCE:4A458DE9-30C9-47BC-B173-77AC6E76FD47" name="status" visibility="public" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="X.210" owner="UMLClass.69"/>
+            <UML:Attribute xmi.id="UMLAttribute.79" xmi.uuid="DCE:E917ABA3-70C4-43DF-8DBB-1CCF30B618A7" name="dateOfInterview" visibility="public" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="X.209" owner="UMLClass.69"/>
+            <UML:Operation xmi.id="UMLOperation.80" xmi.uuid="DCE:E759B1E5-A3E7-44DD-8075-469ACBFF7BB2" name="getProgrammes" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.69">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="UMLParameter.81" xmi.uuid="DCE:00B5153C-EBA2-4CB0-BA3C-87B9645055AA" name="" visibility="public" isSpecification="false" kind="return" behavioralFeature="UMLOperation.80" type="X.207"/>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="UMLOperation.82" xmi.uuid="DCE:22AED5A4-95AC-4807-B96D-07EB57BF6F4D" name="setProgramme" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.69">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="UMLParameter.83" xmi.uuid="DCE:CE207580-6C9F-4181-9A5B-06B3658B2E9F" name="" visibility="public" isSpecification="false" kind="return" behavioralFeature="UMLOperation.82" type="X.207"/>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="UMLOperation.84" xmi.uuid="DCE:3995ECF0-ACFD-4480-86C6-5F385209D43C" name="getFullname" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.69">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="UMLParameter.85" xmi.uuid="DCE:FFCB6069-99BA-4A90-940F-8D5E57E4BB3E" name="" visibility="public" isSpecification="false" kind="return" behavioralFeature="UMLOperation.84" type="X.208"/>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="UMLOperation.86" xmi.uuid="DCE:77130A73-40F3-4159-A1D3-AC0E9251FF65" name="setFullName" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.69">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="UMLParameter.87" xmi.uuid="DCE:011385A3-A9FF-4BE7-B376-81B86D58D75C" name="" visibility="public" isSpecification="false" kind="return" behavioralFeature="UMLOperation.86" type="X.183"/>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="UMLOperation.88" xmi.uuid="DCE:C48E26A5-9BF9-493D-B73E-EC84359C01FA" name="getDateOfBirth" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.69">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="UMLParameter.89" xmi.uuid="DCE:F4CB30ED-CAA8-4BB2-AC06-78662E1EBCF5" name="" visibility="public" isSpecification="false" kind="return" behavioralFeature="UMLOperation.88" type="X.209"/>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="UMLOperation.90" xmi.uuid="DCE:2E6DD542-19F4-4D1F-B4C8-91DCF5C5A63F" name="setDateOfbirth" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.69">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="UMLParameter.91" xmi.uuid="DCE:EBDBBC1B-C9A3-4912-97AB-1E87E388D44E" name="" visibility="public" isSpecification="false" kind="return" behavioralFeature="UMLOperation.90" type="X.183"/>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="UMLOperation.92" xmi.uuid="DCE:DDB4BB9B-F7B3-4C7B-AAD9-3DBCDDD20C4A" name="getQualification" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.69">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="UMLParameter.93" xmi.uuid="DCE:F8E14D70-B033-4DE3-A965-2BD8B705AF0E" name="" visibility="public" isSpecification="false" kind="return" behavioralFeature="UMLOperation.92" type="X.210"/>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="UMLOperation.94" xmi.uuid="DCE:03868301-30BE-4A88-88C5-A31C306337EC" name="setQualification" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.69">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="UMLParameter.95" xmi.uuid="DCE:3747F726-E944-41A9-B81D-FEBE4D924FAF" name="" visibility="public" isSpecification="false" kind="return" behavioralFeature="UMLOperation.94" type="X.183"/>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="UMLOperation.96" xmi.uuid="DCE:F0D0A22A-DDC5-42A4-9F92-5A2300CAF28C" name="getMarksObtained" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.69">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="UMLParameter.97" xmi.uuid="DCE:8A8D33E1-7DBE-4720-A3D3-0BCB57D476AA" name="" visibility="public" isSpecification="false" kind="return" behavioralFeature="UMLOperation.96" type="X.210"/>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="UMLOperation.98" xmi.uuid="DCE:C7C2AB91-B351-44AC-BE47-CAC0B94D2ED2" name="setMarksInterview" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.69">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="UMLParameter.99" xmi.uuid="DCE:D9C4DE1B-261A-4AE7-9C3E-4C17FFB319F6" name="" visibility="public" isSpecification="false" kind="return" behavioralFeature="UMLOperation.98" type="X.183"/>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+          </UML:Classifier.feature>
+        </UML:Class>
+        <UML:Class xmi.id="UMLClass.100" xmi.uuid="DCE:5178FDEC-26FA-438C-8CD9-0FB1BE2312B1" name="Programmes" visibility="public" isSpecification="false" namespace="UMLModel.6" isRoot="false" isLeaf="false" isAbstract="false" participant="UMLAssociationEnd.142 UMLAssociationEnd.156 UMLAssociationEnd.159 UMLAssociationEnd.168" isActive="false">
+          <UML:Classifier.feature>
+            <UML:Attribute xmi.id="UMLAttribute.101" xmi.uuid="DCE:3190F68B-EEDE-4720-BB62-37849CC88FBE" name="programmeName" visibility="public" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="X.210" owner="UMLClass.100"/>
+            <UML:Attribute xmi.id="UMLAttribute.102" xmi.uuid="DCE:9CCF74B1-7564-49F9-B232-1D4C2F92C5C5" name="description" visibility="public" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="X.210" owner="UMLClass.100"/>
+            <UML:Attribute xmi.id="UMLAttribute.103" xmi.uuid="DCE:4540325F-250B-4FEB-804F-2685B1B11944" name="applicantEligibility" visibility="public" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="X.226" owner="UMLClass.100"/>
+            <UML:Attribute xmi.id="UMLAttribute.104" xmi.uuid="DCE:471F6F2D-CABA-4776-A6BD-A953E65F3BA1" name="duration" visibility="public" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="X.208" owner="UMLClass.100"/>
+            <UML:Attribute xmi.id="UMLAttribute.105" xmi.uuid="DCE:353E5ACD-9A4B-4134-AF77-6D02FFED6196" name="degree" visibility="public" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="X.210" owner="UMLClass.100"/>
+          </UML:Classifier.feature>
+        </UML:Class>
+        <UML:Class xmi.id="UMLClass.106" xmi.uuid="DCE:C0D1E95B-6F7F-470D-ACA2-6807B3CBBE6A" name="ProgrammesScheduled" visibility="public" isSpecification="false" namespace="UMLModel.6" isRoot="false" isLeaf="false" isAbstract="false" participant="UMLAssociationEnd.155 UMLAssociationEnd.165" isActive="false">
+          <UML:Classifier.feature>
+            <UML:Attribute xmi.id="UMLAttribute.107" xmi.uuid="DCE:4728BC84-A5CC-403F-9848-3E5D071C186F" name="scheduledProgrammeId" visibility="public" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="X.212" owner="UMLClass.106"/>
+            <UML:Attribute xmi.id="UMLAttribute.108" xmi.uuid="DCE:CA0523A6-B37E-435D-9DE3-6EC61C2EA65A" name="ProgrammeName" visibility="public" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="X.210" owner="UMLClass.106"/>
+            <UML:Attribute xmi.id="UMLAttribute.109" xmi.uuid="DCE:738BE60D-8161-4151-A393-ABAC42F7822A" name="location" visibility="public" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="X.210" owner="UMLClass.106"/>
+            <UML:Attribute xmi.id="UMLAttribute.110" xmi.uuid="DCE:877543B5-50EE-4C5D-999C-08975CBB44B8" name="startDate" visibility="public" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="X.233" owner="UMLClass.106"/>
+            <UML:Attribute xmi.id="UMLAttribute.111" xmi.uuid="DCE:F9302CCB-A036-465F-9AB4-99C82CA6C85A" name="endDate" visibility="public" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="X.233" owner="UMLClass.106"/>
+            <UML:Attribute xmi.id="UMLAttribute.112" xmi.uuid="DCE:55855D2B-CBBE-453A-A4E2-5CDC2E52DA35" name="sessionsPerWeek" visibility="public" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="X.212" owner="UMLClass.106"/>
+          </UML:Classifier.feature>
+        </UML:Class>
+        <UML:Class xmi.id="UMLClass.113" xmi.uuid="DCE:1285EAF8-5739-446F-B1FA-E0FDC823607E" name="Participant" visibility="public" isSpecification="false" namespace="UMLModel.6" isRoot="false" isLeaf="false" isAbstract="false" participant="UMLAssociationEnd.138 UMLAssociationEnd.139 UMLAssociationEnd.141 UMLAssociationEnd.170 UMLAssociationEnd.174 UMLAssociationEnd.176" isActive="false">
+          <UML:Classifier.feature>
+            <UML:Attribute xmi.id="UMLAttribute.114" xmi.uuid="DCE:4A92D556-1AFC-47C2-A6F9-DE314F614D45" name="rollNo" visibility="public" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="X.212" owner="UMLClass.113"/>
+            <UML:Attribute xmi.id="UMLAttribute.115" xmi.uuid="DCE:0314558C-A0CF-4081-8B3B-B9BF4B1645D6" name="emailId" visibility="private" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="X.210" owner="UMLClass.113"/>
+            <UML:Attribute xmi.id="UMLAttribute.116" xmi.uuid="DCE:B0E25480-7BB7-4075-B50A-E368999081B9" name="applicantId" visibility="public" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="X.212" owner="UMLClass.113"/>
+            <UML:Attribute xmi.id="UMLAttribute.117" xmi.uuid="DCE:E0BC0BF6-7454-475A-8811-D9E8B1377C22" name="scheduledProgrammeId" visibility="public" isSpecification="false" ownerScope="instance" changeability="changeable" targetScope="instance" type="X.212" owner="UMLClass.113"/>
+            <UML:Operation xmi.id="UMLOperation.118" xmi.uuid="DCE:9BCF9DC7-7F43-4A64-93E7-74A851899EEA" name="getRollNo" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.113">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="UMLParameter.119" xmi.uuid="DCE:C60B0846-B0AB-42C1-BF7D-8745B4637D06" name="" visibility="public" isSpecification="false" kind="return" behavioralFeature="UMLOperation.118" type="X.212"/>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="UMLOperation.120" xmi.uuid="DCE:7B31B7BA-66FB-433F-8FB6-811C3F6B193B" name="getApplicationId" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.113">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="UMLParameter.121" xmi.uuid="DCE:D4F43613-BCE2-48D9-BFB2-89267000EBA0" name="" visibility="public" isSpecification="false" kind="return" behavioralFeature="UMLOperation.120" type="X.212"/>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="UMLOperation.122" xmi.uuid="DCE:E68EA8D8-DC43-42A9-A8D3-7026BB25AD83" name="getScheduledProgrammeId" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.113">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="UMLParameter.123" xmi.uuid="DCE:03685A7C-0DBD-4C6B-9E97-B31B62BC0928" name="" visibility="public" isSpecification="false" kind="return" behavioralFeature="UMLOperation.122" type="X.212"/>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="UMLOperation.124" xmi.uuid="DCE:42D63CE2-DCA4-4AEC-B794-78180A75F581" name="getEmailId" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.113">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="UMLParameter.125" xmi.uuid="DCE:62102CF7-2E8A-4E95-8406-4AC924D0E1F0" name="" visibility="public" isSpecification="false" kind="return" behavioralFeature="UMLOperation.124" type="X.210"/>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="UMLOperation.126" xmi.uuid="DCE:20B2DABE-EC6B-4B4E-8ADB-572F32DEBE6C" name="setEmailId" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.113">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="UMLParameter.127" xmi.uuid="DCE:EC9991A7-00CC-4ABF-A7D4-D3B38D9EEE18" name="" visibility="public" isSpecification="false" kind="return" behavioralFeature="UMLOperation.126" type="X.183"/>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+          </UML:Classifier.feature>
+        </UML:Class>
+        <UML:Class xmi.id="UMLClass.128" xmi.uuid="DCE:96CFCF83-224D-4CA1-9D41-7872C39533E3" name="Mac" visibility="public" isSpecification="false" namespace="UMLModel.6" isRoot="false" isLeaf="false" isAbstract="false" participant="UMLAssociationEnd.161 UMLAssociationEnd.177" isActive="false">
+          <UML:Classifier.feature>
+            <UML:Operation xmi.id="UMLOperation.129" xmi.uuid="DCE:850D2CA0-194C-429A-9AB9-0C5629AD5C72" name="viewApplication" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.128">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="UMLParameter.130" xmi.uuid="DCE:274D3F90-E8D7-408E-8334-CC5EA89AB5FD" name="" visibility="public" isSpecification="false" kind="return" behavioralFeature="UMLOperation.129" type="X.212"/>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="UMLOperation.131" xmi.uuid="DCE:CBD8A8A2-5F57-4756-A552-D028E467C94B" name="setstatus" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.128">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="UMLParameter.132" xmi.uuid="DCE:228FA223-B28B-4CE1-BAF0-F63E123DCC98" name="" visibility="public" isSpecification="false" kind="return" behavioralFeature="UMLOperation.131" type="X.226"/>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="UMLOperation.133" xmi.uuid="DCE:CBB471B4-2A89-497A-90E8-C0DC1493B41A" name="setDateOfInterview" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.128">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="UMLParameter.134" xmi.uuid="DCE:2C6C35D9-84F7-470C-AA0A-019041A5C84E" name="" visibility="public" isSpecification="false" kind="return" behavioralFeature="UMLOperation.133" type="X.226"/>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="UMLOperation.135" xmi.uuid="DCE:EF5904D3-2313-44B9-87B7-FA8697417E45" name="addParticipant" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.128">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="UMLParameter.136" xmi.uuid="DCE:AC83BEEC-E151-4DD1-B926-163FFFF84CC4" name="" visibility="public" isSpecification="false" kind="return" behavioralFeature="UMLOperation.135" type="X.240"/>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+          </UML:Classifier.feature>
+        </UML:Class>
+        <UML:Association xmi.id="UMLAssociation.137" xmi.uuid="DCE:732D796D-D3E4-4E5B-AA07-FA52E076B5BD" name="" visibility="public" isSpecification="false" namespace="UMLModel.6">
+          <UML:Association.connection>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.138" xmi.uuid="DCE:09749398-A8AF-4D79-BA4B-79960EF7B4AA" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="none" targetScope="instance" changeability="changeable" association="UMLAssociation.137" type="UMLClass.113"/>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.139" xmi.uuid="DCE:F2D11672-9B58-4E58-B2D2-71416CBF4BC1" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="none" targetScope="instance" changeability="changeable" association="UMLAssociation.137" type="UMLClass.113"/>
+          </UML:Association.connection>
+        </UML:Association>
+        <UML:Association xmi.id="UMLAssociation.140" xmi.uuid="DCE:434044FD-96E0-41B5-BEE2-F8F050F42C4C" name="" visibility="public" isSpecification="false" namespace="UMLModel.6">
+          <UML:Association.connection>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.141" xmi.uuid="DCE:387CD3EF-F582-4466-9EE4-E796829AEF1E" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="none" targetScope="instance" changeability="changeable" association="UMLAssociation.140" type="UMLClass.113">
+              <UML:AssociationEnd.multiplicity>
+                <UML:Multiplicity xmi.id="X.241" xmi.uuid="DCE:E5E56D2D-23AA-4641-949F-08732F12A121">
+                  <UML:Multiplicity.range>
+                    <UML:MultiplicityRange xmi.id="X.242" xmi.uuid="DCE:7768FE11-BCE5-423F-8B5D-166F343E1F8A" lower="1" upper="1" multiplicity="X.241"/>
+                  </UML:Multiplicity.range>
+                </UML:Multiplicity>
+              </UML:AssociationEnd.multiplicity>
+            </UML:AssociationEnd>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.142" xmi.uuid="DCE:057B68C4-1AC6-447F-B39F-15F870A189BC" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="none" targetScope="instance" changeability="changeable" association="UMLAssociation.140" type="UMLClass.100">
+              <UML:AssociationEnd.multiplicity>
+                <UML:Multiplicity xmi.id="X.243" xmi.uuid="DCE:D85A3EDF-9772-413B-9C09-A5110733B0E8">
+                  <UML:Multiplicity.range>
+                    <UML:MultiplicityRange xmi.id="X.244" xmi.uuid="DCE:D9181F58-5A85-4D3B-BEA5-EA372D61FA07" lower="1" upper="1" multiplicity="X.243"/>
+                  </UML:Multiplicity.range>
+                </UML:Multiplicity>
+              </UML:AssociationEnd.multiplicity>
+            </UML:AssociationEnd>
+          </UML:Association.connection>
+        </UML:Association>
+        <UML:Class xmi.id="UMLClass.143" xmi.uuid="DCE:45D51327-A350-4D7B-BE44-390B4D545052" name="Admin" visibility="public" isSpecification="false" namespace="UMLModel.6" isRoot="false" isLeaf="false" isAbstract="false" participant="UMLAssociationEnd.164 UMLAssociationEnd.167" isActive="false">
+          <UML:Classifier.feature>
+            <UML:Operation xmi.id="UMLOperation.144" xmi.uuid="DCE:25C4C4BC-452D-4F7D-B320-DAEE5870775C" name="addProgram" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.143">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="UMLParameter.145" xmi.uuid="DCE:30E8CCC7-681C-4BEC-B291-87A5A7718284" name="" visibility="public" isSpecification="false" kind="return" behavioralFeature="UMLOperation.144" type="X.207"/>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="UMLOperation.146" xmi.uuid="DCE:53062B84-2061-4573-97F5-C0FD8D6277CC" name="deleteProgram" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.143">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="UMLParameter.147" xmi.uuid="DCE:41AE251B-CF8A-40F1-B4AC-67A4EFCF7349" name="" visibility="public" isSpecification="false" kind="return" behavioralFeature="UMLOperation.146" type="X.207"/>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="UMLOperation.148" xmi.uuid="DCE:5D3207ED-6683-40F9-8D5C-51E094D5A1C1" name="manageScheduledProgramme" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.143">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="UMLParameter.149" xmi.uuid="DCE:5FC9D710-8FF7-439D-AC6D-97613561CEB5" name="" visibility="public" isSpecification="false" kind="return" behavioralFeature="UMLOperation.148" type="X.245"/>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="UMLOperation.150" xmi.uuid="DCE:8F0F4963-72BA-47C4-AD08-9B4BB8E8DDEF" name="listOfApplication" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.143">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="UMLParameter.151" xmi.uuid="DCE:75149525-27B4-434C-8AF8-7A8A0889D3C5" name="" visibility="public" isSpecification="false" kind="return" behavioralFeature="UMLOperation.150" type="X.246"/>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="UMLOperation.152" xmi.uuid="DCE:E1F3DFB6-07E6-47E1-9050-C7B6C8ED6F26" name="listOfProgrammes" visibility="public" isSpecification="false" ownerScope="instance" isQuery="false" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false" specification="" owner="UMLClass.143">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="UMLParameter.153" xmi.uuid="DCE:16E68EBB-2CED-4082-98A1-82AA1B16B07E" name="" visibility="public" isSpecification="false" kind="return" behavioralFeature="UMLOperation.152" type="X.207"/>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+          </UML:Classifier.feature>
+        </UML:Class>
+        <UML:Association xmi.id="UMLAssociation.154" xmi.uuid="DCE:797153AE-8EFC-448A-99F6-1AA94ECC381A" name="" visibility="public" isSpecification="false" namespace="UMLModel.6">
+          <UML:Association.connection>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.155" xmi.uuid="DCE:51A44100-758D-420A-BF41-885BC1F4333C" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="none" targetScope="instance" changeability="changeable" association="UMLAssociation.154" type="UMLClass.106"/>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.156" xmi.uuid="DCE:346780E2-8FD8-4E56-8AB4-7C86531FEFB3" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="composite" targetScope="instance" changeability="changeable" association="UMLAssociation.154" type="UMLClass.100"/>
+          </UML:Association.connection>
+        </UML:Association>
+        <UML:Association xmi.id="UMLAssociation.157" xmi.uuid="DCE:EC0BAC64-58C1-454C-BC9E-43FF40B80739" name="" visibility="public" isSpecification="false" namespace="UMLModel.6">
+          <UML:Association.connection>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.158" xmi.uuid="DCE:7003C259-14CA-4C83-B4B0-30B8BDB8337A" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="none" targetScope="instance" changeability="changeable" association="UMLAssociation.157" type="UMLClass.69">
+              <UML:AssociationEnd.multiplicity>
+                <UML:Multiplicity xmi.id="X.247" xmi.uuid="DCE:96FAADB3-EFC6-402D-B050-9E4DF64DE359">
+                  <UML:Multiplicity.range>
+                    <UML:MultiplicityRange xmi.id="X.248" xmi.uuid="DCE:7BEBB2ED-B7BE-435D-AE9A-5C23849E428C" lower="1" upper="1" multiplicity="X.247"/>
+                  </UML:Multiplicity.range>
+                </UML:Multiplicity>
+              </UML:AssociationEnd.multiplicity>
+            </UML:AssociationEnd>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.159" xmi.uuid="DCE:323D6872-D83E-43FD-A9B6-F259B4EF7E59" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="none" targetScope="instance" changeability="changeable" association="UMLAssociation.157" type="UMLClass.100">
+              <UML:AssociationEnd.multiplicity>
+                <UML:Multiplicity xmi.id="X.249" xmi.uuid="DCE:833231C7-C95F-466A-882D-7A83C9B7AACF">
+                  <UML:Multiplicity.range>
+                    <UML:MultiplicityRange xmi.id="X.250" xmi.uuid="DCE:BCCBC91A-9C2C-48F8-8589-23692A949E2B" lower="1" upper="-1" multiplicity="X.249"/>
+                  </UML:Multiplicity.range>
+                </UML:Multiplicity>
+              </UML:AssociationEnd.multiplicity>
+            </UML:AssociationEnd>
+          </UML:Association.connection>
+        </UML:Association>
+        <UML:Association xmi.id="UMLAssociation.160" xmi.uuid="DCE:C68E8121-E02E-496E-A1F2-A9EAB9D0FEAF" name="" visibility="public" isSpecification="false" namespace="UMLModel.6">
+          <UML:Association.connection>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.161" xmi.uuid="DCE:61C44487-30FF-4253-9233-DE3719A790D5" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="none" targetScope="instance" changeability="changeable" association="UMLAssociation.160" type="UMLClass.128"/>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.162" xmi.uuid="DCE:434A738E-703B-46DC-8DE1-F5F1EE24BBB7" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="none" targetScope="instance" changeability="changeable" association="UMLAssociation.160" type="UMLClass.69"/>
+          </UML:Association.connection>
+        </UML:Association>
+        <UML:Association xmi.id="UMLAssociation.163" xmi.uuid="DCE:F98C898D-AA44-49CF-A126-6982C3B0F152" name="" visibility="public" isSpecification="false" namespace="UMLModel.6">
+          <UML:Association.connection>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.164" xmi.uuid="DCE:8235EAD8-1398-4CFE-A587-065E4FEC25F4" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="none" targetScope="instance" changeability="changeable" association="UMLAssociation.163" type="UMLClass.143"/>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.165" xmi.uuid="DCE:F8097F40-A0F8-49E7-8AA2-D7ED480B7AA8" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="none" targetScope="instance" changeability="changeable" association="UMLAssociation.163" type="UMLClass.106"/>
+          </UML:Association.connection>
+        </UML:Association>
+        <UML:Association xmi.id="UMLAssociation.166" xmi.uuid="DCE:A46C946A-8753-4243-B66B-4E750682B1C7" name="" visibility="public" isSpecification="false" namespace="UMLModel.6">
+          <UML:Association.connection>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.167" xmi.uuid="DCE:1524BB68-EF48-4986-96D5-3B31E75C5365" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="none" targetScope="instance" changeability="changeable" association="UMLAssociation.166" type="UMLClass.143"/>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.168" xmi.uuid="DCE:67F2502C-0CDB-40AD-87B9-E91440129964" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="none" targetScope="instance" changeability="changeable" association="UMLAssociation.166" type="UMLClass.100"/>
+          </UML:Association.connection>
+        </UML:Association>
+        <UML:Association xmi.id="UMLAssociation.169" xmi.uuid="DCE:3EC4B297-A79A-4DBE-AFEE-79CA7F686A9C" name="" visibility="public" isSpecification="false" namespace="UMLModel.6">
+          <UML:Association.connection>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.170" xmi.uuid="DCE:A596EE02-87C1-487D-82A8-4BF20877C172" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="none" targetScope="instance" changeability="changeable" association="UMLAssociation.169" type="UMLClass.113"/>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.171" xmi.uuid="DCE:270BC850-09AC-4357-A4BA-3174D6BA73A1" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="none" targetScope="instance" changeability="changeable" association="UMLAssociation.169" type="UMLClass.69"/>
+          </UML:Association.connection>
+        </UML:Association>
+        <UML:Association xmi.id="UMLAssociation.172" xmi.uuid="DCE:475DD60D-A947-4B95-84E9-8F192D7F5857" name="" visibility="public" isSpecification="false" namespace="UMLModel.6">
+          <UML:Association.connection>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.173" xmi.uuid="DCE:692C0DDD-5DF1-4A2C-A486-C755CB3EFA81" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="none" targetScope="instance" changeability="changeable" association="UMLAssociation.172" type="UMLClass.69"/>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.174" xmi.uuid="DCE:44AB3DC5-853B-4D2A-AAD6-CA22EE516424" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="composite" targetScope="instance" changeability="changeable" association="UMLAssociation.172" type="UMLClass.113"/>
+          </UML:Association.connection>
+        </UML:Association>
+        <UML:Association xmi.id="UMLAssociation.175" xmi.uuid="DCE:50032407-8AE3-4364-B58C-A7F252075516" name="" visibility="public" isSpecification="false" namespace="UMLModel.6">
+          <UML:Association.connection>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.176" xmi.uuid="DCE:DE78F3AB-0680-4375-84DB-6FFF4B376B61" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="none" targetScope="instance" changeability="changeable" association="UMLAssociation.175" type="UMLClass.113"/>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.177" xmi.uuid="DCE:89B6AE33-7FDA-40FC-9B9B-E96D56738CC4" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="none" targetScope="instance" changeability="changeable" association="UMLAssociation.175" type="UMLClass.128"/>
+          </UML:Association.connection>
+        </UML:Association>
+        <UML:Stereotype xmi.id="X.182" xmi.uuid="DCE:213F7378-6A4B-4369-962B-D07DCA483F9F" name="deploymentModel" extendedElement="UMLModel.6"/>
+      </UML:Namespace.ownedElement>
+    </UML:Model>
+    <UML:DataType xmi.id="X.183" xmi.uuid="DCE:74AC045A-B043-4E51-B5F8-89A892BB133C" name="void" visibility="public" isSpecification="false" isRoot="false" isLeaf="false" isAbstract="false"/>
+    <UML:DataType xmi.id="X.207" xmi.uuid="DCE:6B5889DA-D0F2-4B4D-854F-D38B96EB4787" name="programmes" visibility="public" isSpecification="false" isRoot="false" isLeaf="false" isAbstract="false"/>
+    <UML:DataType xmi.id="X.208" xmi.uuid="DCE:A1A633D5-4C92-4DA6-8E90-BA1AEB2AB2FE" name="string" visibility="public" isSpecification="false" isRoot="false" isLeaf="false" isAbstract="false"/>
+    <UML:DataType xmi.id="X.209" xmi.uuid="DCE:248EEA22-DE8C-4A97-85D0-8DE46D714154" name="date" visibility="public" isSpecification="false" isRoot="false" isLeaf="false" isAbstract="false"/>
+    <UML:DataType xmi.id="X.210" xmi.uuid="DCE:BC327634-360B-4279-9543-98AF739B5AC6" name="String" visibility="public" isSpecification="false" isRoot="false" isLeaf="false" isAbstract="false"/>
+    <UML:DataType xmi.id="X.212" xmi.uuid="DCE:6770E52E-06C6-475D-B5C1-8A5D26284E8B" name="int" visibility="public" isSpecification="false" isRoot="false" isLeaf="false" isAbstract="false"/>
+    <UML:DataType xmi.id="X.220" xmi.uuid="DCE:083BA090-45D4-475D-A6E4-DBA1945BA187" name="ProgrammeScheduled" visibility="public" isSpecification="false" isRoot="false" isLeaf="false" isAbstract="false"/>
+    <UML:DataType xmi.id="X.226" xmi.uuid="DCE:D5116181-6906-41E4-AA6D-4D6094D1DF33" name="boolean" visibility="public" isSpecification="false" isRoot="false" isLeaf="false" isAbstract="false"/>
+    <UML:DataType xmi.id="X.233" xmi.uuid="DCE:EA7A5E72-CAA3-42B2-A6BD-ACF172857CF1" name="Date" visibility="public" isSpecification="false" isRoot="false" isLeaf="false" isAbstract="false"/>
+    <UML:DataType xmi.id="X.240" xmi.uuid="DCE:775FB206-70B3-4918-8A47-F668B62D421A" name="participant" visibility="public" isSpecification="false" isRoot="false" isLeaf="false" isAbstract="false"/>
+    <UML:DataType xmi.id="X.245" xmi.uuid="DCE:62F3375D-66BC-4883-A5A8-665A3C1D7583" name="programmesschduled" visibility="public" isSpecification="false" isRoot="false" isLeaf="false" isAbstract="false"/>
+    <UML:DataType xmi.id="X.246" xmi.uuid="DCE:6FDFF935-E95A-4049-8A4D-1E569C917D1B" name="application" visibility="public" isSpecification="false" isRoot="false" isLeaf="false" isAbstract="false"/>
+  </UML:Namespace.ownedElement>
+</UML:Model>
+<UML:TaggedValue xmi.id="X.184" xmi.uuid="DCE:1A25077A-9197-4903-BEF3-D6BB47E73BEF" tag="ordering" value="unordered" modelElement="UMLAttribute.8"/>
+<UML:TaggedValue xmi.id="X.185" xmi.uuid="DCE:11B41FD9-CED3-44E0-B9F9-586628F407F6" tag="ordering" value="unordered" modelElement="UMLAttribute.9"/>
+<UML:TaggedValue xmi.id="X.186" xmi.uuid="DCE:D4708B93-7151-4C63-906B-D8EB340ECC09" tag="ordering" value="unordered" modelElement="UMLAttribute.16"/>
+<UML:TaggedValue xmi.id="X.187" xmi.uuid="DCE:E448D88A-2613-4A16-8CB7-5CEF2EBEFE56" tag="ordering" value="unordered" modelElement="UMLAttribute.17"/>
+<UML:TaggedValue xmi.id="X.188" xmi.uuid="DCE:6F5E616B-3F9C-456D-B447-C24FEC81CD35" tag="ordering" value="unordered" modelElement="UMLAttribute.18"/>
+<UML:TaggedValue xmi.id="X.189" xmi.uuid="DCE:829B43C3-7589-4F07-A12C-8170EEE843A9" tag="ordering" value="unordered" modelElement="UMLAttribute.31"/>
+<UML:TaggedValue xmi.id="X.190" xmi.uuid="DCE:2C0707DC-D97E-4097-B631-3A69D7FF2C50" tag="ordering" value="unordered" modelElement="UMLAttribute.32"/>
+<UML:TaggedValue xmi.id="X.191" xmi.uuid="DCE:3A44AAFB-3783-48B2-958F-091390A6837C" tag="ordering" value="unordered" modelElement="UMLAttribute.33"/>
+<UML:TaggedValue xmi.id="X.192" xmi.uuid="DCE:086F38F0-C347-44F5-B8B8-C8B173D54494" tag="ordering" value="unordered" modelElement="UMLAttribute.34"/>
+<UML:TaggedValue xmi.id="X.193" xmi.uuid="DCE:EA906D42-F032-4710-80B3-BFEB67D51907" tag="ordering" value="unordered" modelElement="UMLAttribute.39"/>
+<UML:TaggedValue xmi.id="X.194" xmi.uuid="DCE:21B40C27-B93B-4662-A2AF-40CEA4E09086" tag="ordering" value="unordered" modelElement="UMLAttribute.40"/>
+<UML:TaggedValue xmi.id="X.195" xmi.uuid="DCE:91DC8753-C972-4988-BCAC-F9AE69677A65" tag="ordering" value="unordered" modelElement="UMLAttribute.41"/>
+<UML:TaggedValue xmi.id="X.196" xmi.uuid="DCE:FADB968A-A2B8-40D8-8A30-59DDDD9D59BA" tag="ordering" value="unordered" modelElement="UMLAttribute.42"/>
+<UML:TaggedValue xmi.id="X.197" xmi.uuid="DCE:CB42A336-0A42-4FD7-A6B5-919A0606DBC6" tag="ordering" value="unordered" modelElement="UMLAttribute.49"/>
+<UML:TaggedValue xmi.id="X.198" xmi.uuid="DCE:935C852E-27CE-42E8-9C24-90336E71B121" tag="ordering" value="unordered" modelElement="UMLAttribute.50"/>
+<UML:TaggedValue xmi.id="X.199" xmi.uuid="DCE:5E0A45B5-F981-4C45-9024-A0D64B40FEB6" tag="ordering" value="unordered" modelElement="UMLAttribute.51"/>
+<UML:TaggedValue xmi.id="X.200" xmi.uuid="DCE:627C1D60-41E5-4F0C-AAC7-D73CFF663372" tag="ordering" value="unordered" modelElement="UMLAttribute.52"/>
+<UML:TaggedValue xmi.id="X.201" xmi.uuid="DCE:2BBC771E-4781-4D34-9D6F-40FA487D6F13" tag="ordering" value="unordered" modelElement="UMLAttribute.53"/>
+<UML:TaggedValue xmi.id="X.202" xmi.uuid="DCE:B450711E-76D2-4FA4-9918-B02E772FB133" tag="ordering" value="unordered" modelElement="UMLAttribute.57"/>
+<UML:TaggedValue xmi.id="X.203" xmi.uuid="DCE:AE158F36-B13C-4B73-887A-CFECF4477A8B" tag="ordering" value="unordered" modelElement="UMLAttribute.58"/>
+<UML:TaggedValue xmi.id="X.204" xmi.uuid="DCE:643DA853-77D5-4A18-9ABC-9B94F094761A" tag="ordering" value="unordered" modelElement="UMLAttribute.59"/>
+<UML:TaggedValue xmi.id="X.205" xmi.uuid="DCE:255B4815-21AF-4EF7-BF4B-37D42DB202B3" tag="ordering" value="unordered" modelElement="UMLAttribute.60"/>
+<UML:TaggedValue xmi.id="X.206" xmi.uuid="DCE:E11F9FC4-706E-4E0A-90D7-0C5781BB2644" tag="ordering" value="unordered" modelElement="UMLAttribute.61"/>
+<UML:TaggedValue xmi.id="X.211" xmi.uuid="DCE:2671AD86-C370-4BAC-8689-B603BC91DC0F" tag="ordering" value="unordered" modelElement="UMLAttribute.70"/>
+<UML:TaggedValue xmi.id="X.213" xmi.uuid="DCE:F0F2F8A2-6450-45FD-AC0A-969AAF8D322F" tag="ordering" value="unordered" modelElement="UMLAttribute.71"/>
+<UML:TaggedValue xmi.id="X.214" xmi.uuid="DCE:FC60B8A1-92DF-424E-AFF0-62388DB95E4A" tag="ordering" value="unordered" modelElement="UMLAttribute.72"/>
+<UML:TaggedValue xmi.id="X.215" xmi.uuid="DCE:027724CB-446A-4C74-B422-3599111B37F8" tag="ordering" value="unordered" modelElement="UMLAttribute.73"/>
+<UML:TaggedValue xmi.id="X.216" xmi.uuid="DCE:C9A4FD0D-0185-40E7-9CC8-DBD73ACAA229" tag="ordering" value="unordered" modelElement="UMLAttribute.74"/>
+<UML:TaggedValue xmi.id="X.217" xmi.uuid="DCE:1C8B3F35-8020-411B-A13F-ED0DA96C5072" tag="ordering" value="unordered" modelElement="UMLAttribute.75"/>
+<UML:TaggedValue xmi.id="X.218" xmi.uuid="DCE:A2C84E17-CAB4-4FCB-B003-A86B67C03CDB" tag="ordering" value="unordered" modelElement="UMLAttribute.76"/>
+<UML:TaggedValue xmi.id="X.219" xmi.uuid="DCE:71A80D8C-1AB2-4EC4-9707-9FF4D8D86EC5" tag="ordering" value="unordered" modelElement="UMLAttribute.77"/>
+<UML:TaggedValue xmi.id="X.221" xmi.uuid="DCE:28F46448-95FC-4F1B-A584-122307D06C05" tag="ordering" value="unordered" modelElement="UMLAttribute.78"/>
+<UML:TaggedValue xmi.id="X.222" xmi.uuid="DCE:44F34873-905C-4715-9A47-DE4D07D0FFCD" tag="ordering" value="unordered" modelElement="UMLAttribute.79"/>
+<UML:TaggedValue xmi.id="X.223" xmi.uuid="DCE:0A171015-A621-4A53-A05B-5E92792F4C29" tag="ordering" value="unordered" modelElement="UMLAttribute.101"/>
+<UML:TaggedValue xmi.id="X.224" xmi.uuid="DCE:DA964BB5-F0ED-4AC8-B7BF-0C09EDC1DBCE" tag="ordering" value="unordered" modelElement="UMLAttribute.102"/>
+<UML:TaggedValue xmi.id="X.225" xmi.uuid="DCE:F4FE7B5B-DFEC-46DA-8A05-BD4972F61E0A" tag="ordering" value="unordered" modelElement="UMLAttribute.103"/>
+<UML:TaggedValue xmi.id="X.227" xmi.uuid="DCE:E438A308-A649-4590-AB1C-47E37CCF472E" tag="ordering" value="unordered" modelElement="UMLAttribute.104"/>
+<UML:TaggedValue xmi.id="X.228" xmi.uuid="DCE:0674C5C5-5EAB-497C-AB31-3B365C51A160" tag="ordering" value="unordered" modelElement="UMLAttribute.105"/>
+<UML:TaggedValue xmi.id="X.229" xmi.uuid="DCE:BD85F1C4-60AD-4144-9135-6A9B16D674A5" tag="ordering" value="unordered" modelElement="UMLAttribute.107"/>
+<UML:TaggedValue xmi.id="X.230" xmi.uuid="DCE:47A3752A-0335-47A0-AE98-91E59829260C" tag="ordering" value="unordered" modelElement="UMLAttribute.108"/>
+<UML:TaggedValue xmi.id="X.231" xmi.uuid="DCE:2D05AE93-4DEB-4B4E-A726-BE899E3F65D7" tag="ordering" value="unordered" modelElement="UMLAttribute.109"/>
+<UML:TaggedValue xmi.id="X.232" xmi.uuid="DCE:8E8B33C6-B096-4081-84FC-B6CFCD86080B" tag="ordering" value="unordered" modelElement="UMLAttribute.110"/>
+<UML:TaggedValue xmi.id="X.234" xmi.uuid="DCE:EBBC4189-464F-41E4-8F88-FC8501C78C69" tag="ordering" value="unordered" modelElement="UMLAttribute.111"/>
+<UML:TaggedValue xmi.id="X.235" xmi.uuid="DCE:D6923274-33ED-426C-B275-17BDC72F27A9" tag="ordering" value="unordered" modelElement="UMLAttribute.112"/>
+<UML:TaggedValue xmi.id="X.236" xmi.uuid="DCE:3A90D990-DE05-4D3E-87DD-A1036C91995E" tag="ordering" value="unordered" modelElement="UMLAttribute.114"/>
+<UML:TaggedValue xmi.id="X.237" xmi.uuid="DCE:0005BB2E-0F0B-40C1-900F-DE9DD9F9ECA8" tag="ordering" value="unordered" modelElement="UMLAttribute.115"/>
+<UML:TaggedValue xmi.id="X.238" xmi.uuid="DCE:BEFCE1D7-AE3B-4F01-AEFA-34A950EA477E" tag="ordering" value="unordered" modelElement="UMLAttribute.116"/>
+<UML:TaggedValue xmi.id="X.239" xmi.uuid="DCE:541D4525-52D0-4312-8F31-C4B7CF620320" tag="ordering" value="unordered" modelElement="UMLAttribute.117"/>
+</XMI.content>
+</XMI>
